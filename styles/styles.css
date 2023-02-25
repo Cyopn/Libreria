@@ -1,0 +1,86 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    background-color: #777;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    background-image: url("../images/bg.png");
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    position: inherit;
+    top: 40px;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.25);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    background-color: #000000;
+    color: white;
+}
+
+.catalogo {
+    color: #000000;
+    background-color: #E3DAC9;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.collapsible {
+    background-color: #A0875A;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: #786440;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #BCB8AE;
+    transition: max-height 0.2s ease-out;
+}
