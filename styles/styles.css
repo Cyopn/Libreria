@@ -5,6 +5,7 @@ html {
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
     background-color: #777;
+    align-content: center;
 }
 
 h3 {
@@ -27,15 +28,15 @@ h3 {
     position: inherit;
     top: 40px;
     bottom: 0;
-    background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.25);
-    color: #f1f1f1;
+    background: rgb(84, 88, 47);
+    background: rgba(84, 88, 47, 0.5);
+    color: #32331e;
     width: 100%;
 }
 
 .topnav a {
     float: left;
-    color: #000000;
+    color: #f8de7e;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -43,16 +44,16 @@ h3 {
 }
 
 .topnav a:hover {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-color: #582f3f;
+    color: #fdcae1;
 }
 
 .topnav a.active {
-    background-color: #000000;
-    color: white;
+    background-color: #582f3f;
+    color: #fdcae1;
 }
 
-.catalogo {
+.categoria {
     color: #000000;
     background-color: #E3DAC9;
     text-align: center;
@@ -83,4 +84,13 @@ h3 {
     overflow: hidden;
     background-color: #BCB8AE;
     transition: max-height 0.2s ease-out;
+}
+
+.scroll{
+    color: blue;
+    background-color: white;
+    top: 100px;
+    position: inherit;
+    padding: 5px 40px;
+    width: 100%;
 }
